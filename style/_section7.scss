@@ -1,0 +1,131 @@
+.section7 {
+  padding: 0 ;
+  display: flex;
+  flex-direction: row;
+  overflow-x: hidden;
+  .section7_item1 {
+    padding: 100px;
+    background-color: #c262af86;
+    h1 {
+      color: #59437a;
+      font-weight: bolder;
+    }
+    p {
+      font-weight: lighter;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      input {
+        height: 30px;
+        padding: 20px;
+        margin-bottom: 10px;
+        border: none;
+        border-radius: 5px;
+      }
+      #btn {
+        // width: 250px;
+        height: 60px;
+        font-size: 17px;
+        font-weight: normal;
+        color: white;
+        text-transform: uppercase;
+        background-color: #59437a;
+        border: none;
+        border-radius: 5px;
+        letter-spacing: 1px;
+
+        &:hover {
+          background-color: #c262af;
+        }
+      }
+    }
+    align-items: center;
+    width: 50%;
+  }
+  .section7_item2 {
+    width: 50%;
+    background-color: #59437a;
+    // align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 100px;
+    .p1{
+      font-size: 20px;
+
+    }
+.p2{
+  font-size: 16px;
+
+}  
+.p3{
+  font-size: 16px;
+a{
+  color: #fff;
+}
+}  
+    h6 {
+      font-weight: 300;
+      color: #fff;
+      a {
+        font-weight: 300;
+
+        color: #fff;
+      }
+    }
+    .profile {
+      display: flex;
+      flex-direction: row;
+      
+    }
+    .profileimg {
+      background-image: url("/images/ss-min.png");
+      background-size: cover;
+      // background-repeat: no-repeat;
+      padding: 20px;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background-color: #e678d0bd;
+    }
+    .profilename {
+      color: #e678d0be;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      h6 {
+        color: #e678d0be;
+      }
+     
+    }
+    p {
+      color: #fff;
+      font-weight: lighter;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .section7 {
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    .section7_item2 {
+      width: 100%;
+    }
+    .section7_item1 {
+      width: 100%;
+    }
+  }
+}
+
+
+
+@media (max-width: 700px){
+  .section7{
+    padding: 0;
+  }
+}

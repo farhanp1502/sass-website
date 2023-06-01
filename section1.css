@@ -1,0 +1,131 @@
+.section1_item1 {
+  width: 50%;
+  height: 500px;
+  background-image: url("./images/ss-min.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: end;
+  /* align-items: end; */
+}
+.section1_item2 {
+  max-width: 50%;
+  max-height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.section1 {
+  margin: 0;
+  padding: 20px 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #e1b7bf;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.line {
+  width: 100px;
+  height: 5px;
+  background-color: #59437a;
+}
+.section1_item2 h1 {
+  color: #59437a;
+  font-size: 60px;
+  font-weight: bolder;
+}
+.section1_item2 h6 {
+  font-size: 18px;
+}
+.section1_item2 h6 a {
+  color: black;
+}
+button {
+  width: 250px;
+  height: 50px;
+  font-size: 17px;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+  background-color: #c262af;
+  border: none;
+  border-radius: 5px;
+  letter-spacing: 1px;
+}
+button:hover {
+  background-color: #59437a;
+}
+.icontain{
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  background-color: #e1b7bf;
+  border-radius: 50%;
+}
+.section12_item{
+  margin: 20px;
+  margin-top: -100px;
+  width: 200px;
+  height: 200px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.section12_item h2{
+  font-size: large;
+  font-weight: bolder;
+  color: #59437a;
+}
+.section1_2{
+  padding: 0 200px;
+  background-color: #59437a;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+
+@media (max-width: 700px) {
+  .section1 {
+    padding: 0;
+    padding-bottom: 300px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+  }
+  .section1_item1 {
+    order: 2;
+    width: 100%;
+  }
+  .section1_item2 {
+    order: 1;
+  }
+  .section1_item2 h1 {
+    font-size: 30px;
+  }
+  .section1_2{
+    padding: 0;
+    flex-direction: column;
+  }
+  .section12_item{
+    margin-top: 0;
+  }
+  .section123{
+    margin-top: -380px;
+  }
+  .section12_item{
+   
+    width: 80vw;
+    height: 200px;
+  }
+}

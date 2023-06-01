@@ -1,0 +1,30 @@
+.navbar{
+  background-color: #e1b7bf;
+  
+padding: 20px 200px;
+  display: flex;
+  justify-content: space-between;
+  .logo{
+    h3{
+
+      font-size: 40px;
+    }
+
+    color:  #59437a;
+  }
+  .sidebar_toggle{
+    i{
+      font-size: 40px;
+      color: #c262af;
+      &:hover{
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@media (max-width: 700px){
+  .navbar{
+    padding: 0 50px;
+  }
+}
